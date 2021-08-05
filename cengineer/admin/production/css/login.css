@@ -1,0 +1,108 @@
+
+    video {
+        position: fixed;
+        z-index: -1;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .login-form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 50%;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgb(25, 29, 255);
+        color: #fff;
+        padding-top: 60px;
+    }
+
+    form input {
+        width: 300px;
+        margin-top: 25px;
+        opacity: 0.8;
+        outline: none;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 30px;
+        box-shadow: 0 0 5px #fff;
+        transition: box-shadow 0.5s ease;
+        font-weight: bold;
+    }
+
+    form .btn {
+        padding: 5px 20px;
+        margin-top: 30px;
+        background: transparent;
+        border-radius: 30px;
+        box-shadow: 0 0 5px #fff;
+        cursor: pointer;
+        float: right;
+        color: #fff;
+    }
+
+    form input[placeholder]:focus {
+        color: black;
+
+    }
+
+    form input:focus, .btn:hover {
+        box-shadow: 0 0 10pc #fff;
+    }
+
+
+@media (max-width: 576px) {
+    video {
+        display: none;
+    }
+
+    form input {
+        width: 100%;
+        margin-top: 25px;
+        background: transparent;
+        outline: none;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 30px;
+        box-shadow: 0 0 5px #fff;
+        transition: box-shadow 0.5s ease;
+    }
+
+    .login-form {
+        background: linear-gradient(90deg, #4a4a4a, #573222, #4a4a4a, #898989);
+        width: 60%;
+        box-shadow: 0 0 10px rgb(255, 253, 253);
+    }
+.media_ayar{
+    margin-top: 75%;
+    margin-bottom: 25%;
+}
+    .kayit-form {
+        background: linear-gradient(90deg, #4a4a4a, #573222, #4a4a4a, #898989);
+        width: 60%;
+        box-shadow: 0 0 10px rgb(255, 253, 253);
+        opacity: 1;
+    }
+
+    .login-form h3,.kayit-form h3 {
+        text-align: center;
+    }
+
+    body {
+        background: linear-gradient(#03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    }
+
+.btn{
+    margin-right: 5%;
+    float: right;
+}
+
+}
+

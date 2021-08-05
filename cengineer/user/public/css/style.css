@@ -1,0 +1,396 @@
+
+body {
+    background: #898989;
+}
+p{
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.headermenu {
+    background: #221615;
+}
+
+.navbar-light .navbar-nav .nav-link, .headermenu .navbar-brand {
+    color: #f3f3f3;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.headermenu .navbar-brand:hover, .navbar-nav .nav-link i:hover, .navbar-light .navbar-nav .nav-link:hover, .ilksection ul i:hover, .footer-links .social-links i:hover, .footer-links .navbar-brand:hover , .iletisim a .btn:hover{
+    color: yellow;
+    transition: 0.5s;
+    transform: scale(1.4);
+}
+
+.navbar-light .navbar-nav .nav-link i {
+    font-size: 22px;
+    margin-left: 55px;
+}
+
+.headermenu .navbar-brand {
+    font-size: 25px;
+}
+
+.form-inline {
+    margin-left: auto;
+    padding-top: 15px;
+}
+
+.form-inline label {
+    background-image: linear-gradient(#8b9da9, #fff6e4);
+    box-shadow: inset 0 0 100px hsla(0, 0%, 0%, .3);
+    border: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 1.2em Helvetica;
+    margin-left: -.125em;
+    padding: 11px 20px 11px 20px;
+    transition: .25s;
+    color: #fff;
+    text-shadow: 2px 2px 2px #666;
+    border-radius: 5px;
+}
+
+.form-inline input {
+    background-color: #e0e0e0;
+    border: 1px solid #666;
+    color: #222;
+    font: 1.2em Helvetica;
+    padding: 10px;
+    width: 75%;
+
+}
+
+
+section {
+    background: #221f1f;
+    border: 3px solid #302c57;
+    color: white;
+    margin-top: 15px;
+}
+
+.ilksection {
+    margin-top: 0;
+
+}
+
+.ilksection img {
+    margin-left: 18%;
+    margin-top: 5%;
+    border-radius: 35px;
+}
+
+.ilksection div {
+    text-align: center;
+}
+
+.ilksection ul a {
+    font-size: 25px;
+    color: white;
+    padding: 0 15px;
+}
+
+.ilksection ul {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+section .list-group-item {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    color: #f3f3f3;
+    font-style: italic;
+    background: #302c57;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+section .list-group-item:hover {
+    background: linear-gradient(90deg, #3f3739, #222122, #ffd1c3, #ebdef4);
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+
+#clock #time, #date #times {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+#date #times {
+    margin-bottom: 15px;
+}
+
+#clock #time div, #date #times div {
+    position: relative;
+    margin: 0 5px;
+
+}
+
+#clock #time div span, #date #times div span {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: #2196f3;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    z-index: 10;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0 .2);
+}
+
+#clock #time div:last-child span {
+    background: #ff006a;
+}
+
+#date #times div:last-child span {
+    background: #ec0062;
+    width: 110px;
+}
+
+#date #times div:last-child span {
+    width: 100px;
+}
+
+#date #times div p, #clock #time div {
+    text-align: center;
+}
+
+.orta_alan {
+    margin-top: -15px;
+}
+
+.orta_alan h4 {
+    text-align: center;
+}
+
+.orta_alan hr {
+    border: 1px solid white;
+}
+
+.orta_alan p {
+    margin: 10px 15px;
+}
+
+.orta_alan img {
+    margin-left: 10%;
+}
+
+.vdoyerlestir {
+    margin: 15px 15px;
+    text-align: center;
+}
+
+
+.ilgi_cekici {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ilgi_cekici p {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer {
+    height: 300px;
+    background: #221615;
+}
+
+.footer-links .navbar-brand {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 55px;
+    color: white;
+}
+
+.footer-links .social-links {
+    font-size: 35px;
+    text-align: center;
+    padding: 0 55px;
+}
+
+.footer-links .social-links a {
+    margin: 0 15px;
+    color: white;
+}
+
+
+
+.enalt p {
+    text-align: center;
+    color: white;
+}
+
+.arkaplantasarım {
+    margin-top: 15px;
+    margin-bottom: 70px;
+    background: #909090;
+    border: 3px solid #909090;
+    border-radius: 10px;
+}
+
+.ilerleme {
+    margin: 15px 15px;
+}
+
+.tecrübelerim {
+    margin: 15px 15px;
+    background: #898989;
+    border-radius: 15px;
+}
+
+.tecrübelerim p{
+    color: black;
+    font-weight: bold;
+}
+.progress{
+    margin-bottom: 25px;
+    border: 2px solid #f3f3f3;
+}
+.iletisim div{
+    text-align: right;
+    margin-right: 30%;
+}
+.ilgi_cekici{
+    width: 100%;
+    margin-left: 0;
+}
+
+@media screen and (min-width: 770px) {
+    .form-inline label {
+        background-image: linear-gradient(#8b9da9, #fff6e4);
+        box-shadow: inset 0 0 100px hsla(0, 0%, 0%, .3);
+        border: 1px;
+        cursor: pointer;
+        display: inline-block;
+        font: bold 1.2em Helvetica;
+        margin-left: -.125em;
+        padding: 11px 20px 11px 20px;
+        transition: .25s;
+        color: #fff;
+        text-shadow: 2px 2px 2px #666;
+        border-radius: 5px;
+    }
+
+    .form-inline input:hover + .form-inline label {
+        border-radius: 0 5px 5px 0;
+        background-color: #fa3;
+    }
+
+    .form-inline input {
+        background-color: #e0e0e0;
+        border: 1px solid #666;
+        color: #222;
+        display: inline-block;
+        font: 1.2em Helvetica;
+        margin-right: -.25em;
+        outline: 0;
+        opacity: 0;
+        padding: 10px;
+        transition: .55s;
+        -webkit-transition: .55s;
+        -moz-transition: .55s;
+        -ms-transition: .55s;
+        -o-transition: .55s;
+        width: 0;
+
+    }
+
+    .form-inline input:hover {
+        opacity: 1;
+        padding-left: .75em;
+        padding-right: .75em;
+        width: 11em;
+        border-radius: 5px 0 0 5px;
+
+    }
+
+    .vdoyerlestir iframe {
+        width: 560px;
+        height: 316px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .headermenu .navbar-brand:hover, .navbar-nav .nav-link i:hover, .navbar-light .navbar-nav .nav-link:hover, .ilksection ul i:hover, .footer-links .social-links i:hover, .footer-links .navbar-brand:hover , .iletisim a .btn:hover{
+        transform: scale(1.2);
+    }
+    .navbar-light .navbar-nav .nav-link, .headermenu .navbar-brand {
+        padding: 8px 15px;
+    }
+
+    .form-inline label {
+        margin-top: 8px;
+    }
+
+    .reklamsection img {
+        width: 100%;
+    }
+
+    #date #times {
+        margin-left: 30px;
+    }
+
+    #clock #time {
+        margin-left: 50px;
+    }
+
+    section {
+        margin-left: -30px;
+        width: 120%;
+        margin-bottom: 0;
+    }
+
+    .reklam2 {
+        display: none;
+    }
+
+    .saat {
+        display: none;
+    }
+
+    .ilksection img {
+        margin-left: 25%;
+    }
+
+    .vdoyerlestir {
+        margin: 2px 2px;
+    }
+
+    .vdoyerlestir iframe {
+        text-align: left;
+        width: 100%;
+    }
+
+    .orta_alan {
+        margin-top: 0;
+    }
+
+    .arkaplantasarım {
+        margin-bottom: 50px;
+    }
+    .iletisim{
+        margin-left: -20px;
+    }
+    .iletisim div{
+        text-align: left;
+        width: 70%;
+    }
+    .iletisim a{
+        margin-left: 50%;
+    }
+.listeleme li{
+    margin-left: -50px;
+}
+
+
+}
