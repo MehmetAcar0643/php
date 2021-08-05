@@ -1,0 +1,8 @@
+.sayfalama a{
+    margin-right: 4px;
+    margin-bottom: 15px;
+}
+.sayfalama a.active{
+    background: #333;
+    color: #fff;
+}
